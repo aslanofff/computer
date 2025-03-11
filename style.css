@@ -12,7 +12,8 @@
     margin: 0;
     padding: 0;
 }
-
+.bosluq{
+    padding: 0 50px;}
 body {
 /* <<<<<<< Ramal1 */
     padding: 8px 80px;
@@ -404,9 +405,7 @@ body {
     }
 }
 /* ======= */
-    width: 100%;
-    padding: 8px 80px;
-}
+
 
 .first-c {
     display: flex;
