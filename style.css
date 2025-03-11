@@ -1,0 +1,398 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    padding: 8px 80px;
+    font-family: "Roboto", sans-serif;
+}
+
+.logo-text-a {
+    width: 80px;
+    margin-bottom: 70px;
+}
+
+.logo-color {
+    background-color: black;
+    height: 8px;
+}
+
+.logo-text {
+    font-size: 18px;
+}
+
+.header-container-a {
+    display: flex;
+}
+
+.header-container-a div {
+    display: flex;
+    align-items: center;
+}
+
+.globe-a {
+    width: 22px;
+    height: 21px;
+    margin-right: 8px;
+}
+
+.clock-a {
+    width: 22px;
+    height: 22px;
+    margin: 0 8px 0 25px;
+}
+
+.calendar-a {
+    width: 20px;
+    height: 22px;
+    margin-right: 8px;
+    margin: 0 8px 0 25px;
+}
+
+.first-container-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.noroot {
+    width: 304px;
+    height: 356px;
+    margin-right: 100px;
+    padding-top: 30px;
+}
+
+.heading-a {
+    font-size: 70px;
+    font-family: "Roboto Slab", serif;
+}
+
+.paragraf-a {
+    font-size: 23px;
+}
+
+.first-paragraf-a {
+    width: 500px;
+}
+
+.first-extra-paragraf-a {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+.extra-paragraf-a {
+    background-color: #1E4681;
+    color: white;
+    width: 460px;
+    padding: 20px;
+
+}
+
+.auther-info {
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+    margin-bottom: 5px;
+}
+
+.auther {
+    font-size: 20px;
+    text-align: right;
+}
+
+.second-main-a {
+    margin: 100px 0 50px;
+}
+
+.main-container-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+}
+
+.second-heading {
+    font-size: 55px;
+    margin-bottom: 30px;
+}
+
+.camera-a {
+    width: 310px;
+    margin-right: 100px;
+}
+
+.container-a {
+    width: 662px;
+}
+
+.main-container-aa {
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.main-container-aa div {
+    width: 170px;
+    margin-left: 50px;
+}
+
+.number-a {
+    font-size: 25px;
+}
+
+.text-a {
+    font-size: 18px;
+}
+
+@media(max-width:1280px) {
+    body {
+        padding: 8px 65px;
+    }
+
+    .globe-a {
+        width: 17px;
+        height: 17px;
+    }
+
+    .clock-a {
+        width: 17px;
+        height: 17px;
+    }
+
+    .calendar-a {
+        width: 17px;
+        height: 17px;
+    }
+
+    .noroot {
+        width: 290px;
+        height: 352px;
+        margin-right: 50px;
+    }
+
+    .heading-a {
+        font-size: 60px;
+    }
+
+    .paragraf-a {
+        font-size: 17px;
+    }
+
+    .auther-info {
+        font-size: 18px;
+    }
+
+    .auther {
+        font-size: 17px;
+    }
+
+    .container-a {
+        font-size: 20px;
+    }
+
+    .camera-a {
+        width: 280px;
+        margin-left: 50px;
+    }
+
+    .number-a {
+        font-size: 19px;
+    }
+
+    .text-a {
+        font-size: 14px;
+    }
+}
+
+@media(max-width:992px) {
+    .globe-a {
+        width: 15px;
+        height: 15px;
+    }
+
+    .logo-text-a {
+        margin-bottom: 40px;
+    }
+
+    .clock-a {
+        width: 15px;
+        height: 15px;
+    }
+
+    .calendar-a {
+        width: 15px;
+        height: 15px;
+    }
+
+    .noroot {
+        width: 230px;
+        height: 282px;
+        margin-right: 0px;
+    }
+
+    .heading-a {
+        font-size: 55px;
+    }
+
+    .paragraf-a {
+        font-size: 14px;
+    }
+
+    .auther-info {
+        font-size: 15px;
+    }
+
+    .auther {
+        font-size: 14px;
+    }
+
+    .main-container-a {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container-a {
+        font-size: 14px;
+        width: 550px;
+    }
+
+    .main-container-aa div {
+        margin-left: 40px;
+    }
+
+    .camera-a {
+        width: 260px;
+        margin-left: 40px;
+        margin-top: 30px;
+    }
+
+    .second-heading {
+        font-size: 45px;
+    }
+
+    .number-a {
+        font-size: 17px;
+    }
+
+    .text-a {
+        font-size: 12px;
+    }
+
+    .truck {
+        width: 190px;
+        display: none;
+    }
+}
+
+@media(max-width:800px) {
+    body {
+        padding: 8px 50px;
+    }
+
+    .heading-a {
+        font-size: 45px;
+    }
+
+    .noroot {
+        width: 200px;
+        height: 252px;
+        margin-left: 50px;
+    }
+
+}
+
+@media(max-width:580px) {
+    body {
+        padding: 8px 20px;
+    }
+
+    .heading-a {
+        font-size: 25px;
+    }
+
+    .paragraf-a {
+        font-size: 12px;
+    }
+
+    .noroot {
+        width: 120px;
+        height: 172px;
+    }
+
+    .auther-info {
+        font-size: 12px;
+    }
+
+    .auther {
+        font-size: 10px;
+    }
+
+    .extra-paragraf-a {
+        background-color: #1E4681;
+        color: white;
+        width: 200px;
+        padding: 10px;
+    }
+
+    .globe-a {
+        width: 10px;
+        height: 10px;
+    }
+
+    .clock-a {
+        width: 10px;
+        height: 10px;
+    }
+
+    .calendar-a {
+        width: 10px;
+        height: 10px;
+    }
+
+    .header-container-a {
+        display: flex;
+        font-size: 10px;
+    }
+
+    .logo-text-a {
+        margin-bottom: 20px;
+    }
+
+    .camera-a {
+        width: 170px;
+        margin-top: 30px;
+    }
+
+    .second-heading {
+        font-size: 35px;
+    }
+
+    .number-a {
+        font-size: 11px;
+    }
+
+    .text-a {
+        font-size: 9px;
+    }
+
+    .truck {
+        width: 140px;
+        display: n0one;
+    }
+
+    .container-a {
+        width: 300px;
+        font-size: 12px;
+    }
+
+    .main-container-aa div {
+        margin-left: 20px;
+    }
+}
