@@ -1,0 +1,192 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .container-d {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .h1-d {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .grid-d {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card-d {
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-d img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .card-d h2 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  
+  .card-d p {
+    font-size: 25px;
+    color: #666;
+    margin: 5px 0;
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .feedback-section-d {
+    background-color: #c0c0c0;
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: left;
+    height: 80vh;
+  }
+  
+  .feedback-section-d h1 {
+    font-size: 55px;
+    text-align: left;
+    margin-left: 200px;
+  }
+  
+  .feedback-card-d {
+    /* width: 791px; */
+    margin: 0;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 4px 6px 10px black;
+    height: 50vh;
+    width: 90vh;
+    margin-left: 200px;
+  }
+  
+  .feedback-card-d p {
+    font-style: italic;
+    color: #555;
+    font-size: 20px;
+  }
+  
+  .user-info-d {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .user-info-d strong {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  @media screen and (min-width: 991px) and (max-width: 1279px) {
+    .container-d {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .grid-d {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .card-d h2 {
+      font-size: 17px;
+    }
+    .card-d p {
+      font-size: 14px;
+    }
+    .feedback-section-d {
+      height: 60vh;
+    }
+    .feedback-card-d {
+      height: 35vh;
+      width: 60vw;
+      margin-left: 80px;
+    }
+    .feedback-section-d h1 {
+      font-size: 32px;
+      margin-left: 100px;
+    }
+    .feedback-card-d p {
+      font-size: 16px;
+    }
+    .user-info-d strong {
+      font-size: 17px;
+    }
+    .prophile-d {
+      width: 110px;
+      height: 97px;
+    }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 990px) {
+    .grid-d {
+      grid-template-columns: 1fr;
+    }
+  
+    .container-d {
+      flex-direction: column;
+    }
+  
+    .card-d {
+      margin: auto;
+      width: 70%;
+    }
+  
+    .card-d h2 {
+      font-size: 14px;
+    }
+  
+    .card-d p {
+      font-size: 12px;
+    }
+  
+    .feedback-section-d {
+      padding: 20px 10px;
+      height: 60vh;
+      /* width: 100%; */
+    }
+  
+    .feedback-card-d {
+      width: 60%;
+      /* padding-left: 30px;
+      padding-right: 30px; */
+      margin-left: 80px;
+      height: 30vh;
+    }
+  
+    .feedback-section-d h1 {
+      font-size: 26px;
+      margin-left: 80px;
+    }
+    .feedback-card-d p {
+      font-size: 12px;
+      
+    }
+  
+    .user-info-d strong {
+      font-size: 14px;
+    }
+    .prophile-d {
+      width: 80px;
+      height: 84px;
+    }
+    .facebook-icon-d {
+      width: 14.91px;
+      height: 17.2px;
+    }
+  }
+  
