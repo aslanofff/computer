@@ -1,5 +1,11 @@
+/* <<<<<<< Ramal1 */
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* ======= */
+/* <<<<<<< Inci2 */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+/* >>>>>>> main */
 
 * {
     box-sizing: border-box;
@@ -8,6 +14,7 @@
 }
 
 body {
+/* <<<<<<< Ramal1 */
     padding: 8px 80px;
     font-family: "Roboto", sans-serif;
 }
@@ -396,3 +403,676 @@ body {
         margin-left: 20px;
     }
 }
+/* ======= */
+    width: 100%;
+    padding: 8px 80px;
+}
+
+.first-c {
+    display: flex;
+}
+
+.first-c {
+    font-family: "Roboto", sans-serif;
+    margin-left: 42px;
+    margin-bottom: 190px;
+}
+
+.h1-c {
+    font-size: 55px;
+    margin-left: 41px;
+    margin-bottom: 110px;
+    font-family: "Roboto Slab", serif;
+    /* width: 667px; */
+}
+.h1-cc{
+    font-size: 55px;
+    margin-left: 41px;
+    margin-bottom: 90px;
+    font-family: "Roboto Slab", serif;
+    /* width: 667px; */
+}
+
+.second-c h4 {
+    font-size: 25px;
+    color: #1E4681;
+    margin-bottom: 10px;
+    /* margin-left: 121px; */
+}
+
+.second-c p {
+    /* gap: 80px; */
+    margin-right: 100px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.one-c {
+    width: 220px;
+}
+
+.two-c {
+    width: 260px;
+}
+
+.three-c {
+    width: 20vw;
+}
+
+.third-c {
+    width: 42vw;
+    font-family: "Roboto", sans-serif;
+    font-size: 24px;
+    margin-left: 60px;
+    margin-top: -30px;
+    line-height: 33px;
+}
+
+
+
+.third-c li::marker {
+    font-size: 18px;
+}
+
+@media screen and (min-width: 992px) and (max-width: 1279px) {
+    .h1-c, .h1-cc{
+        margin-left: 0px;
+        font-size: 32px;
+        width: 386.3px;
+        margin-bottom: 60px;
+    }
+
+
+    .first-c {
+        display: flex;
+        gap: 50px;
+        margin-left: 0;
+        margin-bottom: 100px;
+    }
+
+    .second-c h4 {
+        width: 20vw;
+            font-size: 1.9vw;
+            margin-bottom: 8px;
+            text-align: left;
+        /* margin-left: -10px; */
+        /* font-size: 15px;
+        margin-bottom: 5px; */
+    }
+
+    .second-c p {
+        width: 19vw;
+        font-size: 1.3vw;
+        text-align: left;
+        /* font-size: 11px;
+        margin-right: 60px; */
+        /* margin-left: 0px; */
+    }
+
+    .third-c {
+        width: 383.41px;
+        font-size: 14px;
+        line-height: 20px;
+        margin-left: 10px;
+    }
+
+    .third-c li::marker {
+        font-size: 10px;
+    }
+
+    .one-c {
+        width: 140px;
+    }
+
+    .two-c {
+        width: 172px;
+    }
+
+    .three-c {
+        width: 145px;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 991px) {
+   body{
+    padding: 8px 40px;
+   }
+    .h1-cc{
+        font-size: 5vw;
+        margin-left: 0px;
+        margin-bottom: 30px;
+    }
+
+    .first-c {
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 60px;
+        margin-top: 30px;
+    }
+
+    .second-c h4 {
+        width: 30vw;
+        font-size: 3.5vw;
+        margin-top: 30px;
+        margin-bottom: 3px;
+        text-align: left;
+        /* width: 60vw;
+        font-size: 22px;
+        margin-bottom: 5px; */
+    }
+
+    .second-c p {
+        width: 43vw;
+        font-size: 2.5vw;
+        text-align: left;
+        /* font-size: 20px;
+        margin-bottom: 35px; */
+    }
+.third-c li{
+      font-size: 2.6vw;
+            line-height: 3.5vw;
+            text-align: left;
+    /* font-size: 26px; */
+}
+    .third-c {
+        
+        /* font-size: 306px; */
+        margin-left: 10px;
+        font-size: 12px;
+        width: 65vw;
+        line-height: 30px;
+        margin-top: 25px;
+        /* margin-bottom: -10px; */
+    }
+
+    .third-c li::marker {
+        font-size: 15px;
+    }
+
+    .h1-c {
+        margin-left: 0;
+        font-size: 5.5vw;
+            margin-bottom: 15px;
+    }
+
+    .one-c {
+        width: 370px;
+    }
+
+    .two-c {
+        width: 330px;
+    }
+
+    .three-c {
+        width: 260px;
+        /* margin-top: 20px;
+        width: 65vw;
+        margin-bottom: 35px;
+        margin-left: 15px; */
+    }
+
+    .third-c li {
+        margin-bottom: 5px;
+    }
+}
+/* ======= */
+/* <<<<<<< Togrul3 */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    box-sizing: border-box;
+  }
+  
+  .container-d {
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .h1-d {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+  .grid-d {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .card-d {
+    background-color: #fff;
+    border-radius: 32px;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-d img {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  
+  .card-d h2 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  
+  .card-d p {
+    font-size: 25px;
+    color: #666;
+    margin: 5px 0;
+    padding-left: 25px;
+    padding-bottom: 10px;
+  }
+  
+  .feedback-section-d {
+    background-color: #c0c0c0;
+    padding: 40px 20px;
+    margin-top: 40px;
+    text-align: left;
+    height: 80vh;
+  }
+  
+  .feedback-section-d h1 {
+    font-size: 55px;
+    text-align: left;
+    margin-left: 200px;
+  }
+  
+  .feedback-card-d {
+    /* width: 791px; */
+    margin: 0;
+    background-color: #fefefe;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 4px 6px 10px black;
+    height: 50vh;
+    width: 90vh;
+    margin-left: 200px;
+  }
+  
+  .feedback-card-d p {
+    font-style: italic;
+    color: #555;
+    font-size: 20px;
+  }
+  
+  .user-info-d {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 20px;
+  }
+  
+  .user-info-d strong {
+    font-size: 30px;
+    color: #333;
+  }
+  
+  @media screen and (min-width: 991px) and (max-width: 1279px) {
+    .container-d {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+    .grid-d {
+      grid-template-columns: repeat(3, 1fr);
+    }
+    .card-d h2 {
+      font-size: 17px;
+    }
+    .card-d p {
+      font-size: 14px;
+    }
+    .feedback-section-d {
+      height: 60vh;
+    }
+    .feedback-card-d {
+      height: 35vh;
+      width: 60vw;
+      margin-left: 80px;
+    }
+    .feedback-section-d h1 {
+      font-size: 32px;
+      margin-left: 100px;
+    }
+    .feedback-card-d p {
+      font-size: 16px;
+    }
+    .user-info-d strong {
+      font-size: 17px;
+    }
+    .prophile-d {
+      width: 110px;
+      height: 97px;
+    }
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 990px) {
+    .grid-d {
+      grid-template-columns: 1fr;
+    }
+  
+    .container-d {
+      flex-direction: column;
+    }
+  
+    .card-d {
+      margin: auto;
+      width: 70%;
+    }
+  
+    .card-d h2 {
+      font-size: 14px;
+    }
+  
+    .card-d p {
+      font-size: 12px;
+    }
+  
+    .feedback-section-d {
+      padding: 20px 10px;
+      height: 60vh;
+      /* width: 100%; */
+    }
+  
+    .feedback-card-d {
+      width: 60%;
+      /* padding-left: 30px;
+      padding-right: 30px; */
+      margin-left: 80px;
+      height: 30vh;
+    }
+  
+    .feedback-section-d h1 {
+      font-size: 26px;
+      margin-left: 80px;
+    }
+    .feedback-card-d p {
+      font-size: 12px;
+      
+    }
+  
+    .user-info-d strong {
+      font-size: 14px;
+    }
+    .prophile-d {
+      width: 80px;
+      height: 84px;
+    }
+    .facebook-icon-d {
+      width: 14.91px;
+      height: 17.2px;
+    }
+  }
+  
+/* ======= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: column;
+
+    
+
+    
+}
+
+
+.container-b{
+    background-color: #9DC9C8;
+    padding: 160px 80px;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Roboto Slab', serif;
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price-section-b {
+    margin-bottom: 30px;
+}
+
+.price-label-b {
+    font-size: 24px;
+    color: black;
+    margin-top: 55px;
+}
+
+.price-b {
+    font-size: 75px;
+    margin-bottom: 60px;
+    
+}
+
+.info-section-b {
+    display: flex;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.info-section div {
+    width: 48%;
+}
+
+.info-title-b{
+    font-size: 24px;
+    margin-bottom: 10px;
+    
+}
+
+.info-text-b{
+    font-size: 18px;
+}
+
+.size-b{
+    width: 300px;
+    margin-right: 50px ;
+}
+
+
+.footer-b {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 160px;
+    padding-left: 80px;
+    padding-right: 80px;
+
+}
+
+.footer-left-b {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100px;
+    height: 120px;
+}
+
+.logo_mobile_white-b{
+    width: 120px;
+    height: 150px;
+}
+
+
+.social-icons-b{
+    color: white;
+    font-size: 35px;
+    transition: 0.3s;
+    margin-top: 17px;
+}
+
+.footer-right-b {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 120px;
+}
+
+.contact-b {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.contact-b i {
+    margin-right: 10px;
+}
+.fab{
+    margin-right: 15px;
+}
+p.phone-number-text-b{
+    font-size: 22px;
+}
+p.email-adress-text-b{
+    font-size: 22px;
+}
+
+/* Copyright Bilgisini Footer'ın İçine Ekledim */
+
+.copyright-b{
+    font-size: 16px;
+    color: white;
+    padding-left: 80px;
+    padding-bottom: 30px;
+    background-color: black;
+}
+
+
+@media screen and (max-width: 1279px){
+    h1{
+        font-size: 42px;
+    }
+    p.price-label-b{
+        font-size: 20px;
+
+    }
+    p.price-b {
+        font-size: 60px;
+       
+    }
+
+    p.info-title-b{
+        font-size: 20px;
+    }
+    p.info-text-b {
+        font-size: 16px;
+    }
+
+
+
+    .logo_mobile_white-b{
+        width: 100px;
+        height: 62px;
+    }
+    .copyright-b{
+        font-size: 13px;
+        
+    }
+    .social-icons-b{
+        font-size: 24px;
+        margin-top: 13px;
+    }
+    p.phone-number-text-b{
+        font-size: 17px;
+    }
+    p.email-adress-text-b{
+        font-size: 17px;
+    }
+    .icon-phone-b{
+        width: 13px;
+        height: 14px;
+    }
+    .icon-mail-b{
+        width: 13px;
+        height: 10px;
+    }
+    .footer-left-b{
+        height: 100px;
+    }
+    
+
+}
+
+@media screen and (max-width: 991px) {
+    h1{
+        font-size: 34px;
+    }
+    p.price-label-b{
+        font-size: 18px;
+
+    }
+    .price-b {
+        font-size: 48px;
+       
+    }
+
+    .info-title-b{
+        font-size: 18px;
+    }
+    .info-text-b {
+        font-size:14px;
+    }
+
+    .logo_mobile_white-b{
+        width: 80px;
+        height : 50px;
+    }
+    .copyright-b{
+        font-size: 10px;
+    }
+    .social-icons-b{
+        font-size: 16px;
+        margin-top: 4px;
+    }
+    .phone-number-text-b{
+        font-size: 8px;
+    }
+    .email-adress-text-b{
+        font-size: 8px;
+    }
+    .icon-phone-b{
+        width: 10px;
+        height: 11px;
+    }
+    .icon-mail-b{
+        width: 10px;
+        height: 8px;
+    }
+    .fab{
+        font-size: 16px;
+    }
+    .footer-b{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        padding-bottom: 0;
+        
+    }
+     .footer-left-b{
+        height: 80px;
+     }
+    .footer-right-b{
+        margin-top: 65px;
+    }
+
+    }
+/* >>>>>>> main */
+/* >>>>>>> main */
+/* >>>>>>> main */
